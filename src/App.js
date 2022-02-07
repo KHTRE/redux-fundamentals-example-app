@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import TodoList from './features/todos/TodoList';
+import Header from './features/header/Header';
 
 function App() {
   return (
@@ -14,6 +16,10 @@ function App() {
       </nav>
       <section>
         <h2>Welcome to the Redux Fundamentals example app!</h2>
+
+        <Header />
+        <TodoList />
+        
       </section>
     </div>
   )
